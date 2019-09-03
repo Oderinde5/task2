@@ -1,0 +1,333 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: white;
+}
+
+#menu {
+	margin: 0;
+	height: 50px;
+}
+
+#menu ul li {
+	margin: 0;
+	display: inline;
+	text-decoration: none;
+	line-height: 50px;
+	
+	
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+	padding: 0 25px 0 5px;
+}
+
+#image {
+	position: relative;
+	width: 100%;
+	
+}
+
+.bg1 img {
+	width: 100%;
+	z-index:1;
+
+}
+
+.bg2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 10%);
+	z-index: 2;
+	border-radius: 100%;
+}
+
+.radius {
+	border-radius: 100%;
+}
+
+#container {
+	margin-top: 115px;
+	margin-bottom: 50px;
+}
+
+.content {
+	width: 650px;
+	margin: auto;
+	color: gray;
+	text-align: center;
+}
+
+.content h2 {
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+.content h3 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.content p {
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.content a {
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+#about, 
+#qualify {
+	background: url("https://res.cloudinary.com/oderinde5/image/upload/v1567026047/samples/section-bg_sqgmrs.jpg") no-repeat;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-ms-background-size:cover; 
+	-o-background-size:cover; 
+	background-size:cover;
+}
+
+.sect-col {
+	background-color: rgba(46, 96, 211, 0.6);
+}
+#about-content {
+	width: 850px;
+	height: 250px;
+	margin: auto;
+	color: white;
+	padding: 0px 0 0 0;
+}
+
+.back h2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	padding-top: 80px;
+}
+
+.us {
+	text-align: center;
+}
+
+.us p {
+	padding-bottom: 20px;
+}
+.us p span {
+	color: #00A813;
+}
+
+#experience {
+	background-color: #D3D3D3;
+	padding-top: 40px;
+	height: 400px;
+}
+
+#experience h2 {
+	color: white;
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#containerex {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#exp-content {
+	border-radius: 20px;
+	background-color: white;
+	width: 645px;
+	padding: 5px 5px 0px 5px;
+}
+
+.expic {
+	width: 120px;
+	height: 390px;
+	float: left;
+	padding: 15px 0 0 10px;
+}
+
+.expic img {
+	width: 100px;
+	height: 100px;
+}
+
+.detail {
+	padding: 35px 5px 0px 0px;
+	color: #A3A3A3;
+	font-weight: bold;
+}
+
+.detail h4, p {
+	padding-top: 10px;
+}
+
+.detail p {
+	font-size: 13px;
+}
+
+.detail li {
+	padding-top: 10px;
+}
+
+.box1 {
+	float: left;
+}
+
+.box2 {
+	float: right;
+}
+
+#skills {
+	background: url("https://res.cloudinary.com/oderinde5/image/upload/v1567026047/samples/section-bg_sqgmrs.jpg") no-repeat;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-ms-background-size:cover; 
+	-o-background-size:cover; 
+	background-position:center;
+}
+
+.sect-col,
+.sect {
+	background-color: rgba(46, 96, 211, 0.6);
+}
+#skills-content {
+	width: 860px;
+	height:250px;
+	margin: auto;
+	color: white;
+	padding: 30px 100px 100px 50px;
+
+}
+
+#skills h2 {
+	padding: 30px 10px 10px 5px;
+	text-align: center;
+	
+}
+
+#dcont li {
+	padding: 10px 100px 0px 50px;
+	text-align: left;
+}
+
+.us a,
+#bt a {
+	text-decoration: none;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	background-color: #36EA00;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	border-radius:20px;
+}
+
+
+
+#clear {
+	clear: both;
+}
+
+#review h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #A3A3A3;
+}
+
+#review-container {
+	margin: auto;
+	padding: 5px 20px;
+}
+
+
+#review-form {
+	color: #A3A3A3;
+}
+
+.bd {
+	width: 585px;
+	height: 30px;
+	border: 2px solid #30D100;
+}
+
+.bd::placeholder {
+	color: #B5B3B3;
+	padding: 0 0 0 10px;
+
+}
+#droplst {
+	color: #B5B3B3;
+	padding: 0 0 0 8px;
+	height: 35px;
+}
+.space {
+	padding-top: 20px;
+}
+
+#ta {
+	height: 250px;
+}
+
+#check {
+	padding-left:10px;
+}
+ 
+#qualify {
+	margin-top: 20px;
+	height: 520px;
+	color: white;
+}
+
+.sect {
+	height: 520px;
+}
+
+#qualify h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 100px;
+}
+.qual {
+	width: 800px;
+	margin: auto;
+}
+
+.qual {
+	border:1px solid white;
+	border-collapse: collapse;
+}
+
+.qual td, 
+.qual th {
+	border: 1px solid white;
+	height: 40px;
+	padding: 0 15px;
+}
+
+.qual th {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: serif;
+}
+
+.qual td {
+	font-weight: normal;
+}
+.qual tr td:last-child {
+	text-align: right;
+}
