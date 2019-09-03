@@ -120,9 +120,7 @@ body {
 .us p {
 	padding-bottom: 20px;
 }
-.us p span {
-	color: #00A813;
-}
+
 
 #experience {
 	background-color: #D3D3D3;
@@ -169,10 +167,6 @@ body {
 
 .detail h4, p {
 	padding-top: 10px;
-}
-
-.detail p {
-	font-size: 13px;
 }
 
 .detail li {
