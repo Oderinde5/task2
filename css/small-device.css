@@ -28,12 +28,12 @@
 
 		#image {
 		position: relative;
-		width: 100%;
+		width: 450px;
 		
 	}
 
 		.bg1 img {
-		width: 100%;
+		width: 450px;
 		z-index:1;
 
 	}
@@ -54,10 +54,12 @@
 		-ms-background-size:cover; 
 		-o-background-size:cover; 
 		background-size:cover;
+		width: 450px;
 	}
 
 		.sect-col {
 		background-color: rgba(46, 96, 211, 0.6);
+		width: 450px;
 	}
 
 		#skills, footer{
@@ -67,6 +69,7 @@
 		-ms-background-size:cover; 
 		-o-background-size:cover; 
 		background-position:center;
+		width: 450px;
 	}
 
 		.content {
@@ -88,6 +91,7 @@
 		background-color: #D3D3D3;
 		padding-top: 40px;
 		height: 850px;
+		width: 450px;
 	}
 
 		#exp-content{
@@ -96,7 +100,7 @@
 		width: 300px;
 		height: 350px;
 		padding: 5px 5px 5px 15px;
-		margin: 5px 30px 5px 80px;
+		margin: 5px 30px 5px 10px;
 		font-size: 14px;
 	}
 
@@ -111,8 +115,8 @@
 	}
 
 		.qual{
-		width: 400px;
-		margin: 50px 50px 50px 50px;
+		width: 450px;
+		margin: 50px 50px 50px 10px;
 		padding: 20px 15px 15px 10px;
 		text-align: center;
 		border:1px solid white;
@@ -138,7 +142,7 @@
 		margin: 10px 10px 10px 10px;
 		padding: 10px 10px 10px 10px;
 	}
-	input[type="submit"]{
+	input[type="button"]{
 		width:300px;
 		height:30px;
 		background-color: green;
@@ -165,5 +169,6 @@
 		color: white;
 		margin: auto;
 		height: auto;
+		width: 450px;
 	}
 }

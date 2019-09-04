@@ -36,13 +36,13 @@
 								</div>
 								<div>
 									<label for="labelEmail">Email</label>
-									<input type="email" name="email" id="labelEmail" placeholder="Email" minlength="30">
+									<input type="email" name="email" id="labelEmail" placeholder="Email" maxlength="30">
 								</div>
 								<div>
 									<label for="labelMessage">Message</label>
 									<textarea id="labelMessage" name="message" rows="10" cols="60" placeholder="Type message here ..." minlength="20"></textarea>
 								</div>
-									<input type="submit" name="submit" value="Submit">
+									<input type="button" name="Submit" value="Send" onclick="Success();">
 								
 								</div>	
 							</fieldset>
@@ -51,5 +51,16 @@
 			<div id="clear"></div>
 		<!-- End of Contact -->
 
+
+
+
+
+
+<script type="text/javascript">
+	function Success() {
+		alert ("Your form has been submitted successfully");
+		document.write ("Your form has been submitted successfully");
+	}
+</script>
 </body>
 </html>
