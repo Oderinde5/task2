@@ -1,7 +1,7 @@
 @media(min-width: 768px) and (max-width: 1440px){
 	* {
 		margin: 0;
-		font-family: sans-serif;
+		font-family: serif;
 		list-style-type: none;
 	}
 
@@ -220,12 +220,12 @@ body {
 	clear: both;
 }
 
-#review h2 {
+#contact h2 {
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	color: #A3A3A3;
+	color: #000000;
 }
 
 #review-container {
@@ -240,6 +240,15 @@ body {
 
 label {
 	margin-left: 10px;
+}
+select[id="labelTitle"]{
+	width:620px;
+	height:30px;	
+	color:green;
+	border: 2px solid lightgreen;
+	display: block;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 input[type="text"], input[type="email"]{

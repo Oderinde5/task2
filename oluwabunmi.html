@@ -21,7 +21,7 @@
 					<li><a href="#qualifications">Qualifications</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#skills">Skills</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</header>
 		<!-- End of menu -->
@@ -162,6 +162,44 @@
 				</div>
 			</section>
 		<!-- End of Qualifications -->
+		
+		<!-- Start of Contact -->	
+			<section>
+				<div id="contact">
+					<h2>Contact Form</h2>
+					<div class="form">
+							<form method="post">
+								<fieldset>
+									<div>
+										<label for="labeTitle">Title</label>
+										<select id="labelTitle" name="title">
+											<option value="" selected="selected">Please choose</option>
+											<option value="Ms.">Ms.</option>
+											<option value="Mr.">Mr.</option>
+											<option value="Mrs.">Mrs.</option>
+										</select>
+									</div>
+									<div>
+										<label for="labelName">Name</label>
+										<input type="text" name="name" id="labelName" placeholder="Full Name" minlength="4">
+									</div>
+									<div>
+										<label for="labelEmail">Email</label>
+										<input type="email" name="email" id="labelEmail" placeholder="Email" maxlength="30">
+									</div>
+									<div>
+										<label for="labelMessage">Message</label>
+										<textarea id="labelMessage" name="message" rows="10" cols="60" placeholder="Type message here ..." minlength="20"></textarea>
+									</div>
+										<input type="button" name="Submit" value="Send" onclick="Success();">
+									
+									</div>	
+								</fieldset>
+							</form>
+					</div>
+				<div id="clear"></div>
+			</section>
+		<!-- End of Contact -->
 
 			<footer>Copyright by OderindeOluwatosin &copy; 2019</footer>
 		</div>
