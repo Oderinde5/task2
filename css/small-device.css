@@ -1,6 +1,7 @@
 @media(min-width: 320px) and (max-width: 1024px) {
 		*{
 			list-style-type: none;
+			box-sizing: border-box;
 	}
 
 		h2{
@@ -8,21 +9,21 @@
 	}
 
 		#menu {
-		margin: 0;
 		height: 50px;
+		width: 450px;
 	}
 
 		#menu ul li {
-		margin: 0;
-		display: inline;
+		margin-right: 0;
+		display: inline-block;
 		text-decoration: none;
-		line-height: 25px;		
+		line-height: 20px;		
 	}
 
 		#menu a {
 		text-decoration: none;
 		color: black;
-		padding: 0 25px 0 5px;
+		padding: 5px 5px 0 5px;
 	}
 
 		#image {
@@ -86,7 +87,7 @@
 		#experience {
 		background-color: #D3D3D3;
 		padding-top: 40px;
-		height: 800px;
+		height: 850px;
 	}
 
 		#exp-content{
@@ -100,8 +101,8 @@
 	}
 
 	#skills-content {
-		width: 350px;
-		height:250px;
+		width: 450px;
+		height:400px;
 		margin: auto;
 		color: white;
 		padding: 30px 100px 100px 50px;
